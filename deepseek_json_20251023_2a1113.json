@@ -1,0 +1,16 @@
+{
+  "name": "attendance-bot",
+  "version": "1.0.0",
+  "description": "飞书打卡机器人",
+  "main": "api/attendance.js",
+  "scripts": {
+    "start": "node api/attendance.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
